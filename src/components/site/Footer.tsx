@@ -63,7 +63,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center">
-          <div>© {new Date().getFullYear()} Fiyo Energy Private Limited. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Fiyo Energy. All rights reserved.</div>
           <div>Power infrastructure · India</div>
         </div>
       </div>
