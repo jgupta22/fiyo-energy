@@ -9,7 +9,7 @@ import { toast } from "sonner";
 // 1. Sign up at https://formspree.io (free)
 // 2. Create a new form and copy the endpoint URL
 // 3. Paste it below (replace YOUR_FORM_ID)
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/mrerkjqe";
 
 const Contact = () => {
   const [submitting, setSubmitting] = useState(false);
@@ -31,10 +31,10 @@ const Contact = () => {
         toast.success("Thank you. We will get back to you shortly.");
         form.reset();
       } else {
-        toast.error("Something went wrong. Please email sales@fiyoenergy.com directly.");
+        toast.error("Something went wrong. Please email info@fiyoenergy.com directly.");
       }
     } catch {
-      toast.error("Network error. Please email sales@fiyoenergy.com directly.");
+      toast.error("Network error. Please email info@fiyoenergy.com directly.");
     } finally {
       setSubmitting(false);
     }
