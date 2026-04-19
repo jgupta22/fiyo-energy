@@ -39,13 +39,25 @@ const Footer = () => {
             <ul className="mt-4 space-y-3 text-sm">
               <li>
                 <a
-                  href="mailto:sales@fiyoenergy.com"
+                  href="mailto:info@fiyoenergy.com"
                   className="text-muted-foreground transition-colors hover:text-accent"
                 >
-                  sales@fiyoenergy.com
+                  info@fiyoenergy.com
                 </a>
               </li>
-              <li className="text-muted-foreground">India</li>
+            
+              <li>
+                <a
+                  href="tel:+918905958274"
+                  className="text-muted-foreground transition-colors hover:text-accent"
+                >
+                  +91 89059 58274
+                </a>
+              </li>
+            
+              <li className="text-muted-foreground">
+                India · Mon–Fri, 9:00 AM – 6:00 PM IST
+              </li>
             </ul>
           </div>
         </div>
