@@ -55,18 +55,34 @@ const Contact = () => {
           </p>
 
           <div className="mt-10 space-y-5 border-t border-surface-dark-foreground/15 pt-8">
-            <a
-              href="mailto:sales@fiyoenergy.com"
-              className="group flex items-start gap-4 transition-colors hover:text-accent-glow"
-            >
-              <Mail className="mt-0.5 h-5 w-5 text-accent-glow" strokeWidth={1.6} />
-              <div>
-                <div className="text-xs uppercase tracking-wider text-surface-dark-foreground/50">
-                  Email
-                </div>
-                <div className="mt-1 text-sm font-medium">sales@fiyoenergy.com</div>
-              </div>
-            </a>
+            {/* Email */}
+  <a
+    href="mailto:info@fiyoenergy.com"
+    className="group flex items-start gap-4 transition-colors hover:text-accent-glow"
+  >
+    <Mail className="mt-0.5 h-5 w-5 text-accent-glow" strokeWidth={1.6} />
+    <div>
+      <div className="text-xs uppercase tracking-wider text-surface-dark-foreground/50">
+        Email
+      </div>
+      <div className="mt-1 text-sm font-medium">info@fiyoenergy.com</div>
+    </div>
+  </a>
+
+  {/* Phone */}
+  <a
+    href="tel:+918905958274"
+    className="group flex items-start gap-4 transition-colors hover:text-accent-glow"
+  >
+    <Phone className="mt-0.5 h-5 w-5 text-accent-glow" strokeWidth={1.6} />
+    <div>
+      <div className="text-xs uppercase tracking-wider text-surface-dark-foreground/50">
+        Phone
+      </div>
+      <div className="mt-1 text-sm font-medium">+91 89059 58274</div>
+    </div>
+  </a>
+
             <div className="flex items-start gap-4">
               <MapPin className="mt-0.5 h-5 w-5 text-accent-glow" strokeWidth={1.6} />
               <div>
